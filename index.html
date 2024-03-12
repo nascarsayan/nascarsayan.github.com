@@ -110,21 +110,18 @@
                 nascarsayan@gmail.com</a>
             </li>
             <li>
-              <a target="_blank" href="tel:+919735440134"><i class="fa fa-brands fa-phone"></i>+91 9735440134</a>
-            </li>
-            <li>
               <a target="_blank" href="https://github.com/nascarsayan"><i class="fab fa-github"></i>nascarsayan</a>
             </li>
             <li>
               <a target="_blank" href="https://www.linkedin.com/in/nascarsayan/"><i class="fab fa-linkedin"></i></i>nascarsayan</a>
             </li>
             <li>
-              <i class="fas fa-birthday-cake"></i>14th April 1996
+              <i class="fas fa-birthday-cake"></i>April 1996
             </li>
             <li>
               <div style="display: flex">
                 <i class="fas fa-home"></i>
-                <div>25/159, P.K. Guha Road, Dum Dum Cantonment, Kolkata 700028, India</div>
+                <div>Kolkata, IN</div>
               </div>
             </li>
           </ul>
@@ -232,6 +229,19 @@
     <div class="col-md-7 border-left">
 
       <section class="_experience" class="ml-3">
+        <style scoped>
+          ._experience ul.nested {
+            margin-left: -25px;
+          }
+          ._experience ul ul li {
+            margin-left: 10px;
+          }
+          ._experience strong {
+            font-size: 10px;
+            text-transform: uppercase;
+            font-weight: 100;
+          }
+        </style>
         <h4 class="text-uppercase" style="font-weight: 200">Experience</h4>
         <div>
           <h6 style="display: inline">
@@ -254,42 +264,42 @@
             <img class="codicon" src="./assets/python.svg" alt="Python" />
             <img class="codicon" src="./assets/dotnet-core.svg" alt="DotNet Core" />
           </h6>
-          <ul style="list-style-position: outside; font-size: 14px; font-weight: 200" class="pl-4">
+          <ul style="list-style: none; font-size: 14px; font-weight: 200" class="pl-4 nested">
             <li>
               <strong>Kubernetes Operator Core Member</strong>
               <ul style="list-style-type: disc; margin-left: -30px;">
                 <li>Integral member of k8s operator code for Arc for VMware and Arc for SCVMM, shaping its evolution from inception to the successful GA launch in November 2023.</li>
-                <li>Enhanced PSSession communication from Linux to Windows using sidecar containers in dotnet.</li>
+                <li>Migrated SCVMM operator to a new architecture with separate gRPC interface in dotnet.</li>
                 <li>Improve guest agent installation success, by introducing fallback channels (PowerShell remoting for Windows and SSH for Linux) in case of failures using VMWare tools.</li>
               </ul>
             </li>
             <li>
-              <strong>Customer Onboarding:</strong>
+              <strong>Customer Onboarding</strong>
               <ul style="list-style-type: disc; margin-left: -30px;">
-                <li>Increasing the onboarding success rate by implementing improvements across various platform codebases.</li>
+                <li>Increased onboarding success rate for Arc for VMware to 95% by implementing improvements across various platform codebases.</li>
                 <li>Maintaining all the customer-facing scripts: Onboarding to Arc, Deboarding from Arc, Scale-onboarding VMs to Arc. Maintainer of azure cli extension for our service.</li>
                 <li>Architected the KMS plugin, refined VMware validation procedures, and ensured image provisioning idempotency and cleanup across a variety of on-prem environments of customers.</li>
               </ul>
             </li>
             <li>
-              <strong>Performance and Reliability:</strong>
+              <strong>Performance and Reliability</strong>
               <ul style="list-style-type: disc; margin-left: -30px;">
                 <li>Load tests and performance test benchmarks using pprof, to identify and improve bottlenecks in the operators.</li>
                 <li>Build dashboards using grafana, providing insights into the operator's performance and reliability.</li>
               </ul>
             </li>
             <li>
-              <strong>Automation:</strong>
+              <strong>Automation</strong>
               <ul style="list-style-type: disc; margin-left: -30px;">
                 <li>Generation of PowerShell scripts for SCVMM in Go using reflection.</li>
                 <li>Convert PowerShell and Bash scripts to Typescript code for the Azure portal, from where customers download the onboarding scripts.</li>
                 <li>Maintainer of CI/CD pipelines for the operator, improving reusability of the scripts across different regions for diverse Arc services.</li>
               </ul>
             <li>
-              <strong>Mentorship and Collaboration:</strong>
+              <strong>Mentorship and Collaboration</strong>
               <ul style="list-style-type: disc; margin-left: -30px;">
-                <li>Mentored interns, nurturing talent and fostering the implementation of impactful features like the PSClient fallback option, directly benefiting customers.</li>
-                <li>Conducted in-depth root cause analyses on platform code regressions, swiftly identifying and resolving critical issues such as inode exhaustion and vCenter unavailability, reducing customer impact.</li>
+                <li>Mentored a summer intern on implementing the PowerShell Guest Client for Windows.</li>
+                <li>Root cause analyses on platform code regressions, swiftly identifying and resolving critical issues such as inode exhaustion and vCenter session leak, reducing customer impact.</li>
               </ul>
             </li>
           </ul>
