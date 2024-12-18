@@ -113,7 +113,8 @@
               <a target="_blank" href="https://github.com/nascarsayan"><i class="fab fa-github"></i>nascarsayan</a>
             </li>
             <li>
-              <a target="_blank" href="https://www.linkedin.com/in/nascarsayan/"><i class="fab fa-linkedin"></i></i>nascarsayan</a>
+              <a target="_blank" href="https://www.linkedin.com/in/nascarsayan/"><i
+                  class="fab fa-linkedin"></i></i>nascarsayan</a>
             </li>
             <li>
               <i class="fas fa-birthday-cake"></i>April 1996
@@ -233,9 +234,11 @@
           ._experience ul.nested {
             margin-left: -25px;
           }
+
           ._experience ul ul li {
             margin-left: 10px;
           }
+
           ._experience strong {
             font-size: 10px;
             text-transform: uppercase;
@@ -268,71 +271,86 @@
             <li>
               <strong>Kubernetes Operator for Azure Arc</strong>
               <ul style="list-style-type: disc; margin-left: -30px;">
-                <li>Integral member of k8s operator code for Azure Arc for VMware and Azure Arc for SCVMM, shaping its evolution from inception to the successful GA launch in November 2023.</li>
-                <li>Migrated SCVMM operator to a new architecture with separate gRPC interface in dotnet.</li>
-                <li>Improve guest agent installation success, by introducing fallback channels (PowerShell remoting for Windows and SSH for Linux) in case of failures using VMWare tools.</li>
+                <li><b>Integral member</b> of <b>k8s operator code</b> for <b>Azure Arc</b> for <b>VMware</b> and
+                  <b>Azure Arc</b> for <b>SCVMM</b>, shaping its evolution from inception to the successful <b>GA
+                    launch</b> in <b>November 2023</b>.</li>
+                <li><b>Migrated SCVMM operator</b> to a new architecture with separate <b>gRPC interface</b> in
+                  <b>dotnet</b>.</li>
+                <li><b>Improve guest agent installation success</b>, by introducing fallback channels (<b>PowerShell
+                    remoting</b> for <b>Windows</b> and <b>SSH</b> for <b>Linux</b>) in case of failures using <b>VMWare
+                    tools</b>.</li>
               </ul>
             </li>
             <li>
               <strong>Customer Onboarding</strong>
               <ul style="list-style-type: disc; margin-left: -30px;">
-                <li>Guided several AVS and on-prem VMware customers with their onboarding, resolving unique infra scenarios.</li>
-                <li>Increased onboarding success rate for Arc for VMware to 95% by implementing improvements across various platform codebases.</li>
-                <li>Maintaining all the customer-facing scripts: Onboarding to Arc, Deboarding from Arc, Scale-onboarding VMs to Arc. Maintainer of azure cli extension for connectedvmware.</li>
-                <li>Simulating customer network scenarios using SDN: NSX in Azure VMWare Service, IPTables, simulating SSL / Non-SSL transparent / explicit proxy.</li>
-                <li>Architected the KMS plugin, refined VMware validation procedures, and ensured image provisioning idempotency and cleanup across a variety of on-prem environments of customers.</li>
+                <li><b>Guided several AVS</b> and on-prem <b>VMware customers</b> with their onboarding, resolving
+                  unique infra scenarios.</li>
+                <li><b>Increased onboarding success rate</b> for <b>Arc for VMware</b> to <b>95%</b> by implementing
+                  improvements across various platform codebases.</li>
+                <li><b>Maintaining all the customer-facing scripts</b>: <b>Onboarding to Arc</b>, <b>Deboarding from
+                    Arc</b>, <b>Scale-onboarding VMs to Arc</b>. <b>Maintainer</b> of <b>azure cli extension</b> for
+                  <b>connectedvmware</b>.</li>
+                <li><b>Simulating customer network scenarios</b> using <b>SDN</b>: <b>NSX</b> in <b>Azure VMWare
+                    Service</b>, <b>IPTables</b>, simulating <b>SSL / Non-SSL transparent / explicit proxy</b>.</li>
+                <li><b>Architected the KMS plugin</b>, refined <b>VMware validation procedures</b>, and ensured <b>image
+                    provisioning idempotency</b> and cleanup across a variety of on-prem environments of customers.</li>
               </ul>
             </li>
             <li>
               <strong>Performance and Reliability</strong>
               <ul style="list-style-type: disc; margin-left: -30px;">
-                <li>Load tests and performance test benchmarks using pprof, to identify and improve bottlenecks in the operators.</li>
-                <li>Build dashboards using grafana, providing insights into the operator's performance and reliability.</li>
+                <li><b>Load tests</b> and <b>performance test benchmarks</b> using <b>pprof</b>, to identify and improve
+                  bottlenecks in the operators.</li>
+                <li><b>Build dashboards</b> using <b>grafana</b>, providing insights into the operator's performance and
+                  reliability.</li>
               </ul>
             </li>
             <li>
               <strong>Automation</strong>
               <ul style="list-style-type: disc; margin-left: -30px;">
-                <li>Generation of PowerShell scripts for SCVMM in Go using reflection.</li>
-                <li>Convert PowerShell and Bash scripts to Typescript code for the Azure portal, from where customers download the onboarding scripts.</li>
-                <li>Maintainer of CI/CD pipelines for the operator, improving reusability of the scripts across different regions for diverse Arc services.</li>
+                <li><b>Generation of PowerShell scripts</b> for <b>SCVMM</b> in <b>Go</b> using <b>reflection</b>.</li>
+                <li><b>Convert PowerShell and Bash scripts</b> to <b>Typescript code</b> for the <b>Azure portal</b>,
+                  from where customers download the onboarding scripts.</li>
+                <li><b>Maintainer of CI/CD pipelines</b> for the operator, improving reusability of the scripts across
+                  different regions for diverse <b>Arc services</b>.</li>
               </ul>
             <li>
               <strong>Mentorship and Collaboration</strong>
               <ul style="list-style-type: disc; margin-left: -30px;">
-                <li>Mentored a summer intern on implementing the PowerShell Guest Client for Windows.</li>
-                <li>Root cause analyses on platform code regressions, swiftly identifying and resolving critical issues such as inode exhaustion and vCenter session leak, reducing customer impact.</li>
+                <li><b>Mentored a summer intern</b> on implementing the <b>PowerShell Guest Client</b> for
+                  <b>Windows</b>.</li>
+                <li><b>Root cause analyses</b> on platform code regressions, swiftly identifying and resolving critical
+                  issues such as <b>inode exhaustion</b> and <b>vCenter session leak</b>, reducing customer impact.</li>
               </ul>
             </li>
           </ul>
-        </div>
 
-        <div>
-          <h6 style="display: inline">
-            <img class="codicon" style="width: 60px" src="./assets/samsung.svg" alt="" />Samsung R&D Institute
-          </h6>
-          <span style="font-size:20px; font-weight: 200"> |
-          </span>
-          <h6 style="display:inline; font-weight: 300">Software Developer Intern</h6>
-          <span style="font-size:20px; font-weight: 200"> | </span>
-          <h6 style="display:inline; font-weight: 300">Bengaluru, IN</h6>
-          <h6 style="font-weight:200">May 2019 - July 2019</h6>
-          <h6>
-            <img class="codicon" src="./assets/mongodb.svg" alt="MongoDB" />
-            <img class="codicon" src="./assets/express.svg" alt="Express" />
-            <img class="codicon" src="./assets/reactjs.svg" alt="React.js" />
-            <img class="codicon" src="./assets/node-js.svg" alt="Node.js" />
-            <img class="codicon" src="./assets/konva.png" alt="Konva.js" />
-            <img class="codicon" src="./assets/git.svg" alt="Git" />
-          </h6>
-          <ul style="list-style-position: outside; font-size: 14px; font-weight: 200" class="pl-4">
-            <li>Developed a full stack web application for visualizing and managing versions of annotations for image
-              datasets.</li>
-            <li>Used git with mongoose for versionizing the data.
-            </li>
-            <li>Created a CLI tool in JS to manage the different components of the app.</li>
-          </ul>
-        </div>
+          <div>
+            <h6 style="display: inline">
+              <img class="codicon" style="width: 60px" src="./assets/samsung.svg" alt="" />Samsung R&D Institute
+            </h6>
+            <span style="font-size:20px; font-weight: 200"> |
+            </span>
+            <h6 style="display:inline; font-weight: 300">Software Developer Intern</h6>
+            <span style="font-size:20px; font-weight: 200"> | </span>
+            <h6 style="display:inline; font-weight: 300">Bengaluru, IN</h6>
+            <h6 style="font-weight:200">May 2019 - July 2019</h6>
+            <h6>
+              <img class="codicon" src="./assets/mongodb.svg" alt="MongoDB" />
+              <img class="codicon" src="./assets/express.svg" alt="Express" />
+              <img class="codicon" src="./assets/reactjs.svg" alt="React.js" />
+              <img class="codicon" src="./assets/node-js.svg" alt="Node.js" />
+              <img class="codicon" src="./assets/konva.png" alt="Konva.js" />
+              <img class="codicon" src="./assets/git.svg" alt="Git" />
+            </h6>
+            <ul style="list-style-position: outside; font-size: 14px; font-weight: 200" class="pl-4">
+              <li>Developed a full stack web application for <b>visualizing and managing versions of annotations for
+                  image datasets.</b></li>
+              <li>Used <b>git with mongoose</b> for versionizing the data.</li>
+              <li>Created a <b>CLI tool</b> in <b>JS</b> to manage the different components of the app.</li>
+            </ul>
+          </div>
 
       </section>
 
